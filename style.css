@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0;
+    margin:0;
+    /* background-color:#c2261f; */  
+    
+}
+
+.wrapper{
+    margin: 0 auto;
+    margin-top: 250px;
+    text-align: center;
+    max-width:400px;
+}
+
+body{
+    min-height: 900px;
+    background-image: linear-gradient( red, yellow); */
+}
+
+.input-box h3{
+    font-weight: bold;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.question{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 250px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
