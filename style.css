@@ -16,16 +16,60 @@ html, body{
     max-width:400px;
 }
 
-body{
-    min-height: 900px;
-    background-image: linear-gradient( red, yellow); */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
 }
+
+body{
+    height:100%;
+    background-image: url('fire-around.png'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-image: url(corona.png); */
+    /* background-image: url(doomsday.png); */
+    /* background-image: linear-gradient( red, yellow); */
+}
+
+.loser{
+    background-color: white; 
+    padding: 50px;  
+    color: red; 
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    animation:blinking 1s infinite;
+    border-style: solid;
+    display: none;
+}
+
+.winner{
+    background-color: lightblue;
+    color: darkgreen;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding: 50px;
+    border-style: solid;
+    display: none;
+}
+
+@keyframes blinking{
+    0%{   color: red;   }
+    47%{   color: red; }
+    62%{   color: transparent; }
+    97%{   color:transparent; }
+    100%{  color: #000;   }
+    }
 
 .input-box h3{
     font-weight: bold;
     font-size:x-large;
     font-family: Arial, Helvetica, sans-serif;
-
+    color: white;  
 }
 
 .question{
@@ -33,12 +77,9 @@ body{
     max-width: 250px;
     margin: 0 auto;
     padding-bottom: 30px;
+    color: white;
 }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
 
 
 
